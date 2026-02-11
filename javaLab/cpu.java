@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class cpu{
     float price;
-    void cp(float price){
+    cpu(float price){
         this.price=price;
         System.out.println("price:"+price);
     }
@@ -30,7 +30,19 @@ public class cpu{
     }
 
     public static void main(String[] args){
+        Scanner sc =new Scanner(System.in);
+        System.out.println("enter the price of the cpu: ");
+        float pr=sc.nextFloat();
         
-        cpu c1=new proc()
+        cpu c1=new cpu(pr);
+
+        cpu.processor p1=c1.new processor();
+        p1.proc(8,"AMD");
+
+        cpu.ram r1=new cpu.ram();
+        r1.ra();
+
+
+
     }
 }
