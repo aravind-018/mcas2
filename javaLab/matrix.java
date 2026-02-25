@@ -9,7 +9,6 @@ public class matrix {
         System.out.println("enter no. of row and columns ");
         int n=sc.nextInt();
         int m=sc.nextInt();
-        System.out.println(n+""+m);
         int[][] mat1=new int[n][m];
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
