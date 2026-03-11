@@ -1,6 +1,6 @@
 #!/bin/bash
 read -p "enter directory name you want to search : " dir
-for filename in "C:/Users/cacet/OneDrive/Desktop/$dir"
+for filename in "/mnt/c/Users/cacet/OneDrive/Desktop/MCAs2/$dir"
 do
     if [ -d "$filename" ]
     then 
