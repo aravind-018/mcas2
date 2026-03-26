@@ -1,4 +1,5 @@
-public class shape {
+package javaLab;
+    class shape {
     void area(int a){
         System.out.println("the area of square : "+a*a);
     }

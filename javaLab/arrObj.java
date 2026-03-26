@@ -1,6 +1,5 @@
 package javaLab;
 
-import java.lang.foreign.MemoryLayout;
 
 class student{
     int age;

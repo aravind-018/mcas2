@@ -1,4 +1,4 @@
- 
+package javaLab; 
  class A {
     void add(){
         System.out.println("Hellooo vrinda");
