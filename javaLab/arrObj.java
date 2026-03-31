@@ -1,4 +1,4 @@
-package javaLab;
+
 
 
 class student{

@@ -1,5 +1,4 @@
 
-package javaLab;
 import java.util.Scanner;
 
 public class stringfn {

@@ -1,4 +1,4 @@
-package javaLab;
+
 
 public class add {
     public int sumOftwo(int a,int b){

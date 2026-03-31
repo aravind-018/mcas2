@@ -1,4 +1,4 @@
-package javaLab;
+
 public class Product {
     int pcode;
     String pname;
