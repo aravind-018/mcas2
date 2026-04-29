@@ -7,7 +7,6 @@ public class filSearch {
 
         File[] files = dir.listFiles();
         if (files == null) return;
-
         for (File file : files) {
             if (file.getName().equalsIgnoreCase(name)) {
                 System.out.println(file.getAbsolutePath());
@@ -18,7 +17,7 @@ public class filSearch {
             }
         }
     }
-
+    
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         File startDir = new File("C:\\Users\\cacet\\OneDrive\\Desktop\\MCAs2");

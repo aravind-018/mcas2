@@ -15,7 +15,6 @@ public class file2 {
             System.out.println("Data written to file successfully.\n");
         } catch (IOException e) {
             System.out.println("Error while writing to file.");
-            e.printStackTrace();
         }
 
         // 2. Reading from a file and displaying contents
@@ -33,7 +32,6 @@ public class file2 {
             bufferedReader.close();
         } catch (IOException e) {
             System.out.println("Error while reading the file.");
-            e.printStackTrace();
         }
     }
 }

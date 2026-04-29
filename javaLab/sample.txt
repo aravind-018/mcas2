@@ -1,2 +1,0 @@
-Hello, this is a file handling example in Java.
-This file is created, written, and read using Java.

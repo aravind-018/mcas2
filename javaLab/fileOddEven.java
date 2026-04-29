@@ -37,7 +37,6 @@ public class fileOddEven {
 
         } catch (IOException e) {
             System.out.println("Error occurred during file processing.");
-            e.printStackTrace();
         }
     }
 }
