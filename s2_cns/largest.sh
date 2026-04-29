@@ -1,4 +1,3 @@
-
 #!/bin/bash
 read -p "enter 3 no.s :" a b c
 if [ $a -gt $b ] && [ $a -gt $c ]

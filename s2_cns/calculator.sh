@@ -15,6 +15,5 @@ do
           *) echo "invalid operator";exit 1;;
      esac
      echo "$a $op $b=$ans"
-done
-     
+done     
               
