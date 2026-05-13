@@ -1,5 +1,4 @@
 
-import java.util.Scanner;
 
 interface Printer{
     void printDocument();
@@ -16,7 +15,6 @@ class MFM implements Printer,Scaner{
     }
     
 }
-
 class inter{
     public static void main(String[] args){
         MFM m=new MFM();
